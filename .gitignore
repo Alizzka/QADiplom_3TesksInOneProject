@@ -2,3 +2,10 @@
 generated-sources/
 generated-test-sources/
 maven-status/
+.allure/
+data/
+export/
+plugins/
+widgets/
+src/main/java/praktikum/
+src/test/java/unitTests/
