@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: apiTests.OrderCreationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 15.101 s <<< FAILURE! - in apiTests.OrderCreationTest
+createOrderWithInvalidIngredientsHash(apiTests.OrderCreationTest)  Time elapsed: 5.658 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <400>.
+
+	at apiTests.OrderCreationTest.createOrderWithInvalidIngredientsHash(OrderCreationTest.java:107)
+
+createOrderWithNoAuthorization(apiTests.OrderCreationTest)  Time elapsed: 1.969 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at apiTests.OrderCreationTest.createOrderWithNoAuthorization(OrderCreationTest.java:67)
+
+createOrderWithNoAuthorizationAndIngredients(apiTests.OrderCreationTest)  Time elapsed: 0.48 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <400>.
+
+	at apiTests.OrderCreationTest.createOrderWithNoAuthorizationAndIngredients(OrderCreationTest.java:78)
+
