@@ -2,3 +2,8 @@
 generated-sources/
 generated-test-sources/
 maven-status/
+.allure/
+data/
+export/
+plugins/
+widgets/
