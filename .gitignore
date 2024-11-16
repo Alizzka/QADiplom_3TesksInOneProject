@@ -9,3 +9,7 @@ plugins/
 widgets/
 src/main/java/praktikum/
 src/test/java/unitTests/
+jacoco-resources/
+src/test/java/apiTests/
+surefire-reports/
+test-classes/
