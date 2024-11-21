@@ -6,7 +6,7 @@
 - вход через кнопку в форме восстановления пароля.
 */
 
-package webTests.yandex;
+/*package webTests.yandex;
 
 import io.qameta.allure.Step;
 import org.junit.Test;
@@ -59,4 +59,4 @@ public class LoginYandexTest extends BaseYandexTest {
         loginPage.submitRestoreLogin();
         assertEquals("URL после входа должен быть страницей логина", LOGIN_URL, driver.getCurrentUrl());
     }
-}
+}*/

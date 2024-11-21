@@ -2,7 +2,7 @@
 Проверь выход по кнопке «Выйти» в личном кабинете.
 */
 
-package webTests.yandex;
+/*package webTests.yandex;
 
 import io.qameta.allure.Step;
 import org.junit.Test;
@@ -27,4 +27,4 @@ public class LogoutYandexTest extends BaseYandexTest {
         // Клик по кнопке "Выход"
         loginPage.clickExit();
     }
-}
+}*/

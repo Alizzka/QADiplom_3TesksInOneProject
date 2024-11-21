@@ -2,7 +2,7 @@
 Проверь переход по клику на «Личный кабинет»
 */
 
-package webTests.yandex;
+/*package webTests.yandex;
 
 import io.qameta.allure.Step;
 import org.junit.Test;
@@ -26,4 +26,4 @@ public class AccountLoginYandexTest extends BaseYandexTest{
         loginPage.clickPersonalCabinetButton();
         assertEquals("URL после входа в аккаунт и повторного клика по кнопке «Личный кабинет» должен быть переход на страницу профиля", LOGIN_URL2, driver.getCurrentUrl());
     }
-}
+}*/

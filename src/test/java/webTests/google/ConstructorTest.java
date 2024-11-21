@@ -7,29 +7,43 @@
 
 package webTests.google;
 
-import io.qameta.allure.Step;
+import io.qameta.allure.Description;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
+@RunWith(Parameterized.class)
 public class ConstructorTest extends BaseTest {
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return BrowserParameters.getBrowserData(); // Вызов параметров из внешнего класса
+    }
+
+    // Конструктор для передачи параметров в BaseTest
+    // Для вызова тестов в разных браузерах одной командой mvn clean test
+    public ConstructorTest(String browser) {
+        super(browser);
+    }
 
 
     @Test
-    @Step("Проверка перехода в раздел 'Соусы' в Google Chrome браузере")
+    @Description("Проверка перехода в раздел 'Соусы'")
     public void testSaucesSection() {
         constructorPage.clickSaucesSection();
         assertEquals("Соусы", constructorPage.getSaucesHeaderText());
     }
 
     @Test
-    @Step("Проверка перехода в раздел 'Начинки' в Google Chrome браузере")
+    @Description("Проверка перехода в раздел 'Начинки'")
     public void testFillingsSection() {
         constructorPage.clickFillingsSection();
         assertEquals("Начинки", constructorPage.getFillingsHeaderText());
     }
 
     @Test
-    @Step("Проверка перехода в раздел 'Булки' в Google Chrome браузере")
+    @Description("Проверка перехода в раздел 'Булки'")
     public void testBunsSection() {
         constructorPage.clickSaucesSection();
         constructorPage.clickBunsSection();
