@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="apiTests.UserDataUpdateTest" time="16.479" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.UserDataUpdateTest" time="20.765" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Anastasia\IdeaProjects\QA-java-Diplom-1-main\target\test-classes;C:\Users\Anastasia\IdeaProjects\QA-java-Diplom-1-main\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\Anastasia\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Anastasia\.m2\repository\pl\pragmatists\JUnitParams\1.1.1\JUnitParams-1.1.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\Anastasia\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anastasia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anastasia\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Anastasia\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Anastasia\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Anastasia\IdeaProjects\QA-java-diplom-1-main\target\test-classes;C:\Users\Anastasia\IdeaProjects\QA-java-diplom-1-main\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\Anastasia\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Anastasia\.m2\repository\pl\pragmatists\JUnitParams\1.1.1\JUnitParams-1.1.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Anastasia\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anastasia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anastasia\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Anastasia\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Anastasia\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Anastasia\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Anastasia\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Anastasia\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Anastasia\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Anastasia\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Anastasia\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Anastasia\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Anastasia\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Anastasia\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\ANASTA~1\AppData\Local\Temp\surefire18350791031200440755\surefirebooter11016640190250516284.jar C:\Users\Anastasia\AppData\Local\Temp\surefire18350791031200440755 2024-11-13T19-19-24_909-jvmRun1 surefire11414750874368255764tmp surefire_017848220884661609935tmp"/>
+    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire1369565347828801897\surefirebooter-20241121152629764_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire1369565347828801897 2024-11-21T15-26-29_402-jvmRun1 surefire-20241121152629764_1tmp surefire_0-20241121152629764_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Anastasia\IdeaProjects\QA-java-Diplom-1-main\target\test-classes;C:\Users\Anastasia\IdeaProjects\QA-java-Diplom-1-main\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\Anastasia\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Anastasia\.m2\repository\pl\pragmatists\JUnitParams\1.1.1\JUnitParams-1.1.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\Anastasia\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anastasia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anastasia\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Anastasia\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Anastasia\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;"/>
-    <property name="allure.results.directory" value="C:\Users\Anastasia\IdeaProjects\QA-java-Diplom-1-main\target/allure-results"/>
+    <property name="surefire.test.class.path" value="C:\Users\Anastasia\IdeaProjects\QA-java-diplom-1-main\target\test-classes;C:\Users\Anastasia\IdeaProjects\QA-java-diplom-1-main\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Anastasia\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\Anastasia\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Anastasia\.m2\repository\pl\pragmatists\JUnitParams\1.1.1\JUnitParams-1.1.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Anastasia\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Anastasia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anastasia\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anastasia\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Anastasia\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Anastasia\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Anastasia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Anastasia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Anastasia\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Anastasia\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Anastasia\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Anastasia\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Anastasia\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Anastasia\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Anastasia\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Anastasia\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Anastasia\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Anastasia\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\Anastasia\IdeaProjects\QA-java-diplom-1-main\target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Anastasia"/>
     <property name="user.language" value="ru"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Anastasia\IdeaProjects\QA-java-Diplom-1-main"/>
+    <property name="basedir" value="C:\Users\Anastasia\IdeaProjects\QA-java-diplom-1-main"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ANASTA~1\AppData\Local\Temp\surefire18350791031200440755\surefirebooter11016640190250516284.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire1369565347828801897\surefirebooter-20241121152629764_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-LTS"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
     <property name="java.io.tmpdir" value="C:\Users\ANASTA~1\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.12"/>
-    <property name="user.dir" value="C:\Users\Anastasia\IdeaProjects\QA-java-Diplom-1-main"/>
+    <property name="user.dir" value="C:\Users\Anastasia\IdeaProjects\QA-java-diplom-1-main"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -58,12 +58,400 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="updateUserWithAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.209"/>
-  <testcase name="updateUserWithAuthorizationAllFields" classname="apiTests.UserDataUpdateTest" time="2.089"/>
-  <testcase name="updateUserWithAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="2.208"/>
-  <testcase name="updateUserWithoutAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.004"/>
-  <testcase name="updateUserWithoutAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="2.121"/>
-  <testcase name="updateUserWithAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="1.999"/>
-  <testcase name="updateUserWithoutAuthorizationAllData" classname="apiTests.UserDataUpdateTest" time="1.891"/>
-  <testcase name="updateUserWithoutAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="1.924"/>
+  <testcase name="updateUserWithAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.7">
+    <system-out><![CDATA[Пользователь успешно создан: user0c0c12@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user0c0c12@yandex.ru",
+        "name": "User740a96"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzA5OWVkMjgwMDAxYjUxNWJkNSIsImlhdCI6MTczMjE5MjAwOSwiZXhwIjoxNzMyMTkzMjA5fQ.iQy8tZ0dPkvF4tUEltiviWMHwge4xuS_B9pKzmD6jJo",
+    "refreshToken": "cba9bc2cd900a8c5fd074793096496ac05f9a34b086948837d188adf32ff789cb6b4a61d808864ab"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user0c0c12@yandex.ru",
+        "name": "User740a96"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzA5OWVkMjgwMDAxYjUxNWJkNSIsImlhdCI6MTczMjE5MjAwOSwiZXhwIjoxNzMyMTkzMjA5fQ.iQy8tZ0dPkvF4tUEltiviWMHwge4xuS_B9pKzmD6jJo",
+    "refreshToken": "cba9bc2cd900a8c5fd074793096496ac05f9a34b086948837d188adf32ff789cb6b4a61d808864ab"
+}
+Запрос на обновление name:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzA5OWVkMjgwMDAxYjUxNWJkNSIsImlhdCI6MTczMjE5MjAwOSwiZXhwIjoxNzMyMTkzMjA5fQ.iQy8tZ0dPkvF4tUEltiviWMHwge4xuS_B9pKzmD6jJo
+Тело запроса: {"email":"user0c0c12@yandex.ru", "name":"Usered628e", "password":"pass8bbd95"}
+Ответ после обновления name:
+{
+    "success": true,
+    "user": {
+        "email": "user0c0c12@yandex.ru",
+        "name": "Usered628e"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "user0c0c12@yandex.ru",
+        "name": "Usered628e"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithAuthorizationAllFields" classname="apiTests.UserDataUpdateTest" time="2.771">
+    <system-out><![CDATA[Пользователь успешно создан: user218b13@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user218b13@yandex.ru",
+        "name": "Userec2467"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzBjOWVkMjgwMDAxYjUxNWJkNyIsImlhdCI6MTczMjE5MjAxMiwiZXhwIjoxNzMyMTkzMjEyfQ.pl6B8e5llvkRvW2fpelzge_2cW9Oqg2sy-zFox_qIuQ",
+    "refreshToken": "ce13a0a596962816dc8c7cb1115f7becda1184e52e8f0d3b3f0b6810c26e9410b1d6e49d885d18b8"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user218b13@yandex.ru",
+        "name": "Userec2467"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzBjOWVkMjgwMDAxYjUxNWJkNyIsImlhdCI6MTczMjE5MjAxMiwiZXhwIjoxNzMyMTkzMjEyfQ.pl6B8e5llvkRvW2fpelzge_2cW9Oqg2sy-zFox_qIuQ",
+    "refreshToken": "ce13a0a596962816dc8c7cb1115f7becda1184e52e8f0d3b3f0b6810c26e9410b1d6e49d885d18b8"
+}
+Запрос на обновление всех полей:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzBjOWVkMjgwMDAxYjUxNWJkNyIsImlhdCI6MTczMjE5MjAxMiwiZXhwIjoxNzMyMTkzMjEyfQ.pl6B8e5llvkRvW2fpelzge_2cW9Oqg2sy-zFox_qIuQ
+Тело запроса: {"email":"userd64b05@yandex.ru", "name":"User7795d0", "password":"passe93b65"}
+Ответ после обновления всех полей:
+{
+    "success": true,
+    "user": {
+        "email": "userd64b05@yandex.ru",
+        "name": "User7795d0"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "userd64b05@yandex.ru",
+        "name": "User7795d0"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="3.364">
+    <system-out><![CDATA[Пользователь успешно создан: userb4a1ab@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "userb4a1ab@yandex.ru",
+        "name": "Usere0017c"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzBmOWVkMjgwMDAxYjUxNWJkOSIsImlhdCI6MTczMjE5MjAxNSwiZXhwIjoxNzMyMTkzMjE1fQ.WXUaYw8AV6YF4a_fE5iLdCpNeAOXSqQBvtE1O_YBGS4",
+    "refreshToken": "dd7ff6fb1fa41f761e5bad44ec392355b96b0710d9e912f7ea0c7d0bd0e1d2b17f6143d8a6733098"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "userb4a1ab@yandex.ru",
+        "name": "Usere0017c"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzBmOWVkMjgwMDAxYjUxNWJkOSIsImlhdCI6MTczMjE5MjAxNSwiZXhwIjoxNzMyMTkzMjE1fQ.WXUaYw8AV6YF4a_fE5iLdCpNeAOXSqQBvtE1O_YBGS4",
+    "refreshToken": "dd7ff6fb1fa41f761e5bad44ec392355b96b0710d9e912f7ea0c7d0bd0e1d2b17f6143d8a6733098"
+}
+Запрос на обновление email:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzBmOWVkMjgwMDAxYjUxNWJkOSIsImlhdCI6MTczMjE5MjAxNSwiZXhwIjoxNzMyMTkzMjE1fQ.WXUaYw8AV6YF4a_fE5iLdCpNeAOXSqQBvtE1O_YBGS4
+Тело запроса: {"email":"user3a839d@yandex.ru", "name":"Usere0017c", "password":"pass588b8f"}
+Ответ после обновления email:
+{
+    "success": true,
+    "user": {
+        "email": "user3a839d@yandex.ru",
+        "name": "Usere0017c"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "user3a839d@yandex.ru",
+        "name": "Usere0017c"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationName" classname="apiTests.UserDataUpdateTest" time="3.088">
+    <system-out><![CDATA[Пользователь успешно создан: user5e15fa@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user5e15fa@yandex.ru",
+        "name": "Userc60bec"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzEzOWVkMjgwMDAxYjUxNWJkYiIsImlhdCI6MTczMjE5MjAxOSwiZXhwIjoxNzMyMTkzMjE5fQ.xNCzWBmiFnmjM2tKkOGJX1QQdH1kod56M0nXGv5_hLo",
+    "refreshToken": "1aa13753c81b8ab427b86dde09276d6e56372b4dba748608cd7eb086781289524c60b6e3ec567e8b"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user5e15fa@yandex.ru",
+        "name": "Userc60bec"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzEzOWVkMjgwMDAxYjUxNWJkYiIsImlhdCI6MTczMjE5MjAxOSwiZXhwIjoxNzMyMTkzMjE5fQ.xNCzWBmiFnmjM2tKkOGJX1QQdH1kod56M0nXGv5_hLo",
+    "refreshToken": "1aa13753c81b8ab427b86dde09276d6e56372b4dba748608cd7eb086781289524c60b6e3ec567e8b"
+}
+Запрос на обновление name без авторизации:
+Тело запроса: {"email":"user5e15fa@yandex.ru", "name":"User8b592f", "password":"pass8db53f"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="1.704">
+    <system-out><![CDATA[Пользователь успешно создан: user160f05@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user160f05@yandex.ru",
+        "name": "Userb59b53"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzE1OWVkMjgwMDAxYjUxNWJkZCIsImlhdCI6MTczMjE5MjAyMSwiZXhwIjoxNzMyMTkzMjIxfQ.RiUEPRLM8RsawrV4lK9DGjLZ26n4pw28c_tvMFoEmSM",
+    "refreshToken": "fd00a2ec2dac4945d6cef33a4467976f36cdf9aeabacdfbdc74eb67a5b8c0e4c50a1f764fdc4f084"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user160f05@yandex.ru",
+        "name": "Userb59b53"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzE1OWVkMjgwMDAxYjUxNWJkZCIsImlhdCI6MTczMjE5MjAyMSwiZXhwIjoxNzMyMTkzMjIxfQ.RiUEPRLM8RsawrV4lK9DGjLZ26n4pw28c_tvMFoEmSM",
+    "refreshToken": "fd00a2ec2dac4945d6cef33a4467976f36cdf9aeabacdfbdc74eb67a5b8c0e4c50a1f764fdc4f084"
+}
+Запрос на обновление password без авторизации:
+Тело запроса: {"email":"user160f05@yandex.ru", "name":"Userb59b53", "password":"passfe65d2"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="1.986">
+    <system-out><![CDATA[Пользователь успешно создан: user8924a6@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user8924a6@yandex.ru",
+        "name": "Userba21f5"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzE3OWVkMjgwMDAxYjUxNWJkZiIsImlhdCI6MTczMjE5MjAyMywiZXhwIjoxNzMyMTkzMjIzfQ.D9SrtH0o8PvAUgu9ODg4RjiOYVLUaneG1IbQ_6v1D4c",
+    "refreshToken": "75c7d75a90fad666772330026bb20bd3e781f9572d69e34fe35337bb758ec0f89f9f059753b60277"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user8924a6@yandex.ru",
+        "name": "Userba21f5"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzE3OWVkMjgwMDAxYjUxNWJkZiIsImlhdCI6MTczMjE5MjAyMywiZXhwIjoxNzMyMTkzMjIzfQ.D9SrtH0o8PvAUgu9ODg4RjiOYVLUaneG1IbQ_6v1D4c",
+    "refreshToken": "75c7d75a90fad666772330026bb20bd3e781f9572d69e34fe35337bb758ec0f89f9f059753b60277"
+}
+Запрос на обновление password:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzE3OWVkMjgwMDAxYjUxNWJkZiIsImlhdCI6MTczMjE5MjAyMywiZXhwIjoxNzMyMTkzMjIzfQ.D9SrtH0o8PvAUgu9ODg4RjiOYVLUaneG1IbQ_6v1D4c
+Тело запроса: {"email":"user8924a6@yandex.ru", "name":"Userba21f5", "password":"passbe35a1"}
+Ответ после обновления password:
+{
+    "success": true,
+    "user": {
+        "email": "user8924a6@yandex.ru",
+        "name": "Userba21f5"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "user8924a6@yandex.ru",
+        "name": "Userba21f5"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationAllData" classname="apiTests.UserDataUpdateTest" time="2.659">
+    <system-out><![CDATA[Пользователь успешно создан: user3790cc@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user3790cc@yandex.ru",
+        "name": "User5a446b"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzE5OWVkMjgwMDAxYjUxNWJlMSIsImlhdCI6MTczMjE5MjAyNSwiZXhwIjoxNzMyMTkzMjI1fQ.iIMYdcoZkFD0lVTTuHhic7wkrmQcCUVVgc7yRVZ5bUc",
+    "refreshToken": "bb844970b8f18321b772798a0fed15ba0646952bb11d2d3321aef1d3a3f9c3636e3335423d9f1581"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user3790cc@yandex.ru",
+        "name": "User5a446b"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzE5OWVkMjgwMDAxYjUxNWJlMSIsImlhdCI6MTczMjE5MjAyNSwiZXhwIjoxNzMyMTkzMjI1fQ.iIMYdcoZkFD0lVTTuHhic7wkrmQcCUVVgc7yRVZ5bUc",
+    "refreshToken": "bb844970b8f18321b772798a0fed15ba0646952bb11d2d3321aef1d3a3f9c3636e3335423d9f1581"
+}
+Запрос на обновление всех данных без авторизации:
+Тело запроса: {"email":"user3ce6d9@yandex.ru", "name":"Userc9cb0c", "password":"pass9c5fac"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="2.478">
+    <system-out><![CDATA[Пользователь успешно создан: userd9b3c5@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "userd9b3c5@yandex.ru",
+        "name": "Usere9cb41"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzFiOWVkMjgwMDAxYjUxNWJlMyIsImlhdCI6MTczMjE5MjAyNywiZXhwIjoxNzMyMTkzMjI3fQ.yJzUVPNkndEMW-VPNgcVvQsPCnk0_4SaUzT_VCz-Ejw",
+    "refreshToken": "12382f7d9d00c9b88ea37d92fccf22e6792960ffb540ea390860e72d11ede35db147a5fc4e7ef061"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "userd9b3c5@yandex.ru",
+        "name": "Usere9cb41"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YyNzFiOWVkMjgwMDAxYjUxNWJlMyIsImlhdCI6MTczMjE5MjAyNywiZXhwIjoxNzMyMTkzMjI3fQ.yJzUVPNkndEMW-VPNgcVvQsPCnk0_4SaUzT_VCz-Ejw",
+    "refreshToken": "12382f7d9d00c9b88ea37d92fccf22e6792960ffb540ea390860e72d11ede35db147a5fc4e7ef061"
+}
+Запрос на обновление email без авторизации:
+Тело запроса: {"email":"user3c8e15@yandex.ru", "name":"Usere9cb41", "password":"pass406fb7"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
 </testsuite>

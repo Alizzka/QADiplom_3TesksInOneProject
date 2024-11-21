@@ -4,11 +4,25 @@
 
 package webTests.google;
 
-import io.qameta.allure.Step;
+import io.qameta.allure.Description;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
+@RunWith(Parameterized.class)
 public class FromAccountToConstructorTest extends BaseTest {
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return BrowserParameters.getBrowserData(); // Вызов параметров из внешнего класса
+    }
+
+    // Конструктор для передачи параметров в BaseTest
+    // Для вызова тестов в разных браузерах одной командой mvn clean test
+    public FromAccountToConstructorTest(String browser) {
+        super(browser);
+    }
 
     private final String LOGIN_URL = "https://stellarburgers.nomoreparties.site/";
     private final String LOGIN_URL2 = "https://stellarburgers.nomoreparties.site/account/profile";
@@ -16,8 +30,8 @@ public class FromAccountToConstructorTest extends BaseTest {
     // *Баг. После входа в аккаунт через клик по личному кабинету, после входа открывается url
     // страницы логина, а должен быть url главной страницы
     @Test
-    @Step("Тестирование перехода из личного кабинета в конструктор по клику на «Конструктор» в Google Chrome браузере")
-    public void testConstructorButtonFromPersonalCabinetGoogle() {
+    @Description("Тестирование перехода из личного кабинета в конструктор по клику на «Конструктор»")
+    public void testConstructorButtonFromPersonalCabinet() {
         loginPage.clickPersonalCabinetButton();
         loginPage.enterEmail("testuser@example.com");
         loginPage.enterPassword("password123");
@@ -32,8 +46,8 @@ public class FromAccountToConstructorTest extends BaseTest {
     // *Баг. После входа в аккаунт через клик по личному кабинету, после входа открывается url
     // страницы логина, а должен быть url главной страницы
     @Test
-    @Step("Тестирование перехода из личного кабинета в конструктор по клику на логотип Stellar Burgers в Google Chrome браузере")
-    public void testConstructorButtonFromStellarBurgersLogoGoogle() {
+    @Description("Тестирование перехода из личного кабинета в конструктор по клику на логотип Stellar Burgers")
+    public void testConstructorButtonFromStellarBurgersLogo() {
         loginPage.clickPersonalCabinetButton();
         loginPage.enterEmail("testuser@example.com");
         loginPage.enterPassword("password123");

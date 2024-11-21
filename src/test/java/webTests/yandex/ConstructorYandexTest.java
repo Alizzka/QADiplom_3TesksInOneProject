@@ -5,7 +5,7 @@
 - «Начинки»
 */
 
-package webTests.yandex;
+/*package webTests.yandex;
 
 import io.qameta.allure.Step;
 import org.junit.Test;
@@ -35,4 +35,4 @@ public class ConstructorYandexTest extends BaseYandexTest {
         constructorPage.clickBunsSection();
         assertEquals("Булки", constructorPage.getBunsHeaderText());
     }
-}
+}*/

@@ -4,19 +4,33 @@
 
 package webTests.google;
 
-import io.qameta.allure.Step;
+import io.qameta.allure.Description;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
+@RunWith(Parameterized.class)
 public class LogoutTest extends BaseTest {
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return BrowserParameters.getBrowserData(); // Вызов параметров из внешнего класса
+    }
+
+    // Конструктор для передачи параметров в BaseTest
+    // Для вызова тестов в разных браузерах одной командой mvn clean test
+    public LogoutTest(String browser) {
+        super(browser);
+    }
     private final String LOGIN_URL = "https://stellarburgers.nomoreparties.site/";
     private final String LOGIN_URL2 = "https://stellarburgers.nomoreparties.site/account/profile";
 
     // *Баг. После входа в аккаунт через клик по личному кабинету, после входа открывается url
     // страницы логина, а должен быть url главной страницы
     @Test
-    @Step("Тестирование выхода из аккаунта по кнопке «Выйти» в личном кабинете")
-    public void testExitButtonGoogle() {
+    @Description("Тестирование выхода из аккаунта по кнопке «Выйти» в личном кабинете")
+    public void testExitButton() {
         registrationPage.clickLoginAccountButton();
         loginPage.enterEmail("testuser@example.com");
         loginPage.enterPassword("password123");

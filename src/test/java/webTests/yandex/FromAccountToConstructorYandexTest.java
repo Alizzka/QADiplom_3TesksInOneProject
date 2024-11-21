@@ -2,7 +2,7 @@
 Проверь переход по клику на «Конструктор» и на логотип Stellar Burgers
 */
 
-package webTests.yandex;
+/*package webTests.yandex;
 
 import io.qameta.allure.Step;
 import org.junit.Test;
@@ -44,4 +44,4 @@ public class FromAccountToConstructorYandexTest extends BaseYandexTest {
         loginPage.clickStellarBurgersLogo();
         assertEquals("URL после клика по логитипу Stellar Burgers должен быть главной страницей", LOGIN_URL, driver.getCurrentUrl());
     }
-}
+}*/

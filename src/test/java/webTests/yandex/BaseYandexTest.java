@@ -1,6 +1,7 @@
 // Основные начальные методы начала тестирования
+// Для тестов браузеров по отдельности
 
-package webTests.yandex;
+/*package webTests.yandex;
 
 import io.qameta.allure.Step;
 import org.junit.After;
@@ -43,4 +44,4 @@ public class BaseYandexTest {
             driver.quit();
         }
     }
-}
+}*/

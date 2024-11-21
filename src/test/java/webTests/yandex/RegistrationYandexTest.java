@@ -4,7 +4,7 @@
 - ошибку для некорректного пароля. Минимальный пароль — шесть символов.
 */
 
-package webTests.yandex;
+/*package webTests.yandex;
 
 import io.qameta.allure.Step;
 import org.junit.Test;
@@ -53,4 +53,4 @@ public class RegistrationYandexTest extends BaseYandexTest {
         assertTrue("Сообщение об ошибке должно отображаться", registrationPage.isPasswordErrorDisplayed());
         assertEquals("Некорректный текст ошибки", "Некорректный пароль", registrationPage.getPasswordErrorText());
     }
-}
+}*/
